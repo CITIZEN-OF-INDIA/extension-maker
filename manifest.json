@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Local Site Redirector",
+  "description": "Redirects selected websites to local HTML pages with an option to open the original site.",
+  "version": "1.0.0",
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ]
+
+ 
+}
